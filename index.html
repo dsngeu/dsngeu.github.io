@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deepak Singh — Principal Mobile Engineer</title>
-  <meta name="description" content="Principal Mobile Engineer with 12+ years building production iOS apps — AI voice systems, on-device LLMs, BLE/IoT, and consumer apps with millions of users." />
+  <title>Deepak Singh — Principal Engineer · iOS &amp; AI Full-Stack</title>
+  <meta name="description" content="Principal Engineer with 12+ years building production software — native iOS apps with AI voice, BLE/IoT and millions of users, plus AI full-stack products in production: agentic RAG and analytics platforms." />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Deepak Singh — Principal Mobile Engineer" />
-  <meta property="og:description" content="12+ years shipping production iOS apps. AI voice, on-device LLMs, BLE/IoT, and consumer apps with millions of users." />
+  <meta property="og:title" content="Deepak Singh — Principal Engineer · iOS &amp; AI Full-Stack" />
+  <meta property="og:description" content="12+ years shipping production iOS apps, now building AI full-stack products — agentic RAG, analytics platforms, Python, TypeScript, PostgreSQL." />
   <meta property="og:image" content="avatar.png" />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -31,6 +31,7 @@
         <span class="brand-text">Deepak Singh</span>
       </a>
       <ul class="nav-links">
+        <li><a href="#ai">AI Work</a></li>
         <li><a href="#apps">Apps</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Open Source</a></li>
@@ -51,16 +52,17 @@
         <div class="hero-text">
           <div class="hero-eyebrow">
             <span class="status-dot"></span>
-            Available for senior &amp; staff iOS roles
+            Open to principal / staff iOS &amp; AI engineering roles
           </div>
           <h1 class="hero-name">
             Hi, I'm <span class="accent">Deepak Singh</span>.
           </h1>
-          <p class="hero-role">Principal Mobile Engineer · iOS &amp; React Native</p>
+          <p class="hero-role">Principal Engineer · iOS &amp; AI Full-Stack</p>
           <p class="hero-tagline">
             12+ years shipping production iOS apps — from <strong>AI voice systems</strong>
-            and <strong>on-device LLMs</strong> to <strong>BLE/IoT</strong> and consumer apps
-            with <strong>millions of users</strong>.
+            and <strong>BLE/IoT</strong> to consumer apps with <strong>millions of users</strong>.
+            Now also building <strong>AI full-stack products</strong> in production — agentic RAG
+            and analytics platforms in Python, TypeScript and PostgreSQL.
           </p>
           <div class="hero-meta">
             <span class="meta-item">
@@ -131,8 +133,47 @@
       </div>
     </section>
 
+    <!-- AI IN PRODUCTION -->
+    <section id="ai" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-eyebrow">AI Full-Stack · 2026 — Present</div>
+          <h2 class="section-title">AI products in production</h2>
+          <p class="section-sub">Backend and full-stack AI systems I design, build, deploy and support — using Claude Code and OpenAI Codex as coding agents while owning architecture, specs, code review and production.</p>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-head">
+              <div class="project-icon">💬</div>
+              <span class="tag">In production</span>
+            </div>
+            <h3 class="project-name">Insy.ai</h3>
+            <p class="project-tagline">Agentic RAG HR assistant · Odoo ERP</p>
+            <p class="project-desc">An AI assistant inside the company's production Odoo 14 HR ERP that answers employee HR-policy questions. Policy Word documents are parsed, chunked, embedded with OpenAI and searched with <strong>pgvector</strong>; <strong>agent tool calling</strong> adds live ERP data — leave balances, profile, manager, HR partner and buddy. Answers stay private to the logged-in employee. Shipped as a separate module with an admin console and a web/mobile chat widget, without changing any of the ~64 existing production modules.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">PostgreSQL</span><span class="tag">pgvector</span><span class="tag">RAG</span><span class="tag">Tool Calling</span><span class="tag">OpenAI</span><span class="tag">Odoo</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-head">
+              <div class="project-icon">📊</div>
+              <span class="tag">In production</span>
+            </div>
+            <h3 class="project-name">VaSi.ai (Learnee)</h3>
+            <p class="project-tagline">Operations &amp; business analytics platform</p>
+            <p class="project-desc">One view for Learnee's leadership of system health, API traffic, search-cluster capacity, usage patterns, revenue, expenses and app users. A <strong>Firebase Functions</strong> backend in TypeScript runs scheduled agents that pull from Cloud Logging, BigQuery/GA4, Elasticsearch and Learnee's own APIs, apply rules, and store results in PostgreSQL. <strong>Rules decide what's wrong; Claude only explains it</strong> — with fixed-text fallbacks and role-based JWT access per module.</p>
+            <div class="project-tags">
+              <span class="tag">TypeScript</span><span class="tag">Firebase Functions</span><span class="tag">BigQuery</span><span class="tag">Cloud Logging</span><span class="tag">Elasticsearch</span><span class="tag">PostgreSQL</span><span class="tag">Claude</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- APPS -->
-    <section id="apps" class="section">
+    <section id="apps" class="section section-alt">
       <div class="container">
         <div class="section-head">
           <div class="section-eyebrow">Live on the App Store</div>
@@ -236,43 +277,45 @@
             </div>
             <span class="app-arrow">View on App Store →</span>
           </a>
-
-          <a href="https://apps.apple.com/in/app/clove-patient/id6444309983" target="_blank" rel="noopener" class="app-card">
-            <div class="app-card-head">
-              <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/65/eb/6565ebbc-8975-50e1-0c48-405225b8d9a4/AppIconDoctor-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg" alt="Clove Patient icon" />
-              <div class="app-meta">
-                <div class="app-name">Clove Patient</div>
-                <div class="app-sub">Patient-facing dental care</div>
-                <div class="app-rating">
-                  <span class="stars" data-rating="5">★★★★★</span>
-                  <span class="rating-count">5.0 · 5 ratings</span>
-                </div>
-              </div>
-            </div>
-            <p class="app-desc">Patient-facing companion to Clove Doctor. Built appointment booking, secure file uploads, REST integration, and offline caching for the consumer experience across Indian metros.</p>
-            <div class="app-tags">
-              <span class="tag">Swift</span><span class="tag">UIKit</span><span class="tag">REST</span><span class="tag">Offline-first</span>
-            </div>
-            <span class="app-arrow">View on App Store →</span>
-          </a>
         </div>
       </div>
     </section>
 
     <!-- EXPERIENCE -->
-    <section id="experience" class="section section-alt">
+    <section id="experience" class="section">
       <div class="container">
         <div class="section-head">
           <div class="section-eyebrow">Career</div>
           <h2 class="section-title">Experience</h2>
-          <p class="section-sub">Twelve years across consumer, healthcare, IoT, and AI — from individual contributor to engineering leadership.</p>
+          <p class="section-sub">Twelve years across consumer, healthcare, IoT, and AI — from individual contributor to engineering leadership, and from iOS into AI full-stack.</p>
         </div>
 
         <div class="timeline">
           <div class="role">
             <div class="role-time">
+              <div class="role-date">2026 — Present</div>
+              <div class="role-duration">Alongside iOS lead</div>
+            </div>
+            <div class="role-body">
+              <div class="role-header">
+                <h3 class="role-title">AI Full-Stack Engineer</h3>
+                <div class="role-company">Instant Systems, Inc.<span class="role-loc">Noida · Hybrid</span></div>
+              </div>
+              <p class="role-summary">Expanded from iOS into backend and full-stack AI — building and running AI products in Python, TypeScript and PostgreSQL, with Claude Code and OpenAI Codex as coding agents.</p>
+              <ul class="role-bullets">
+                <li><strong>Insy.ai — agentic RAG HR assistant (in production).</strong> Built the retrieval pipeline (document parsing, chunking, OpenAI embeddings, pgvector search) and agent tool calling over live ERP data inside the company's Odoo 14 HR ERP, shipped as an isolated module without touching ~64 existing production modules.</li>
+                <li><strong>VaSi.ai (Learnee) — analytics platform (in production).</strong> Built a Firebase Functions backend of scheduled agents pulling from Cloud Logging, BigQuery/GA4, Elasticsearch and internal APIs into PostgreSQL, with rule-based monitoring, Claude-written explanations with fallbacks, and JWT role-based access.</li>
+                <li><strong>Own the full lifecycle</strong> — architecture, specs and implementation plans, code review of agent-written code, deployment and production support.</li>
+              </ul>
+              <div class="role-tags">
+                <span class="tag">Python</span><span class="tag">TypeScript</span><span class="tag">PostgreSQL</span><span class="tag">pgvector</span><span class="tag">RAG</span><span class="tag">Firebase Functions</span><span class="tag">Google Cloud</span><span class="tag">Claude Code</span><span class="tag">OpenAI Codex</span>
+              </div>
+            </div>
+          </div>
+          <div class="role">
+            <div class="role-time">
               <div class="role-date">Oct 2021 — Present</div>
-              <div class="role-duration">4 yrs 8 mos</div>
+              <div class="role-duration">5 yrs</div>
             </div>
             <div class="role-body">
               <div class="role-header">
@@ -347,12 +390,12 @@
     </section>
 
     <!-- OPEN SOURCE -->
-    <section id="projects" class="section">
+    <section id="projects" class="section section-alt">
       <div class="container">
         <div class="section-head">
           <div class="section-eyebrow">Open Source</div>
           <h2 class="section-title">Side projects on GitHub</h2>
-          <p class="section-sub">Personal projects where I explore modern iOS, on-device AI, and clean architecture.</p>
+          <p class="section-sub">Personal projects where I explore modern iOS, on-device AI, and AI agents.</p>
         </div>
 
         <div class="project-grid">
@@ -402,12 +445,12 @@
     </section>
 
     <!-- SKILLS -->
-    <section id="skills" class="section section-alt">
+    <section id="skills" class="section">
       <div class="container">
         <div class="section-head">
           <div class="section-eyebrow">Toolkit</div>
           <h2 class="section-title">Skills</h2>
-          <p class="section-sub">What I reach for day-to-day — sharpened over a decade of production iOS work.</p>
+          <p class="section-sub">A decade of production iOS depth, plus the backend and AI stack I ship with today.</p>
         </div>
 
         <div class="skill-grid">
@@ -429,6 +472,27 @@
               <span class="skill">Combine</span>
               <span class="skill">Core Data</span>
               <span class="skill">Realm</span>
+            </div>
+          </div>
+
+          <div class="skill-block">
+            <div class="skill-block-head">
+              <span class="skill-icon">🗄️</span>
+              <h3>Backend &amp; Data</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill">Python</span>
+              <span class="skill">TypeScript</span>
+              <span class="skill">PostgreSQL</span>
+              <span class="skill">pgvector</span>
+              <span class="skill">Firebase Functions</span>
+              <span class="skill">Firebase Hosting</span>
+              <span class="skill">BigQuery</span>
+              <span class="skill">Cloud Logging</span>
+              <span class="skill">Cloud SQL</span>
+              <span class="skill">Elasticsearch</span>
+              <span class="skill">JWT &amp; Role-Based Access</span>
+              <span class="skill">Server Deployment</span>
             </div>
           </div>
 
@@ -460,6 +524,9 @@
               <span class="skill">PCM Streaming</span>
               <span class="skill">WebSockets</span>
               <span class="skill">Twilio</span>
+              <span class="skill">RAG</span>
+              <span class="skill">Agentic AI / Tool Calling</span>
+              <span class="skill">Claude API</span>
               <span class="skill">Prompt Design</span>
             </div>
           </div>
@@ -503,6 +570,7 @@
             <div class="skill-tags">
               <span class="skill">Cursor</span>
               <span class="skill">Claude Code</span>
+              <span class="skill">OpenAI Codex</span>
               <span class="skill">MCP Workflows</span>
               <span class="skill">Code Review at scale</span>
               <span class="skill">Mentoring</span>
@@ -513,7 +581,7 @@
     </section>
 
     <!-- EDUCATION -->
-    <section class="section">
+    <section class="section section-alt">
       <div class="container">
         <div class="section-head">
           <div class="section-eyebrow">Background</div>
@@ -522,22 +590,30 @@
         <div class="edu-card">
           <div class="edu-logo">🎓</div>
           <div class="edu-body">
-            <h3 class="edu-degree">Master's in Computer Science</h3>
+            <h3 class="edu-degree">Master of Computer Applications (MCA)</h3>
             <div class="edu-school">Graphic Era University</div>
             <div class="edu-date">2011 — 2014</div>
+          </div>
+        </div>
+        <div class="edu-card" style="margin-top: 16px;">
+          <div class="edu-logo">🎓</div>
+          <div class="edu-body">
+            <h3 class="edu-degree">Bachelor of Computer Applications (BCA)</h3>
+            <div class="edu-school">HNB University</div>
+            <div class="edu-date">2008 — 2011</div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="section section-alt">
+    <section id="contact" class="section">
       <div class="container">
         <div class="contact-card">
           <div class="contact-head">
             <div class="section-eyebrow">Let's work together</div>
-            <h2 class="contact-title">Looking for a Principal / Staff iOS Engineer?</h2>
-            <p class="contact-sub">I'm open to senior iOS, mobile architecture, and engineering leadership roles. Happy to talk about AI-powered mobile, BLE/IoT, healthcare, or anything ambitious.</p>
+            <h2 class="contact-title">Looking for a Principal iOS or AI Full-Stack Engineer?</h2>
+            <p class="contact-sub">I'm open to principal / staff iOS, AI full-stack, and engineering leadership roles. Happy to talk about AI-powered products, RAG and agents, realtime audio, BLE/IoT, healthcare, or anything ambitious.</p>
           </div>
           <div class="contact-links">
             <a href="mailto:dsn.geu@gmail.com" class="contact-link">
